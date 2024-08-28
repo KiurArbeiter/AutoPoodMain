@@ -15,5 +15,6 @@
         public int Milage { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
+        ICollection<CarModel> Cars { get; set; }
     }
 }
