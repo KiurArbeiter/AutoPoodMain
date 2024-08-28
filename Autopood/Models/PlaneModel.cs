@@ -14,7 +14,8 @@
         public string Propeller { get; set; }
         public int TotalTime { get; set; }
         public int Seats { get; set; }
-        public string Inspection { get; set; }
-        public bool InspectionResults { get; set; }
+        public bool Inspection { get; set; }
+
+        public ICollection<Clients> Clients { get; set; }
     }
 }
