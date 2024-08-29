@@ -1,4 +1,4 @@
-﻿using LogInPood.Models;
+using LogInPood.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LogInPood.Controllers
@@ -34,12 +34,12 @@ namespace LogInPood.Controllers
             if (up.Count() == 1)
             {
                 ViewBag.message = "Login Success";
-                return View("Index");
+                return View("Successful");//Views/login/Shared/Success.cshtml, Hiljem mergides siia molemad poed navbariga
             }
             else
             {
-                ViewBag.message = "Login Failed";
-                return View("Privacy");
+                ViewBag.message = "Login Failed, Please try again!";
+                return View("Failed");//Views/login/Shared/Failed.cshtml
             }
         }
     }
