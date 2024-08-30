@@ -1,8 +1,12 @@
+using Autopood.ServiceInterface;
+using Autopood.Services;
+using Microsoft.AspNetCore.Cors.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IPlanesServices, PlanesServices>();
 builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

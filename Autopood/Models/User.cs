@@ -10,7 +10,7 @@
         public bool IsDisabled { get; set; }
         public string DisableReason { get; set; }
 
-        public ICollection <Purchases> PurchasesDone { get; set; }
+        //public ICollection <Purchases> PurchasesDone { get; set; }
 
         //
 
