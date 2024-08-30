@@ -1,8 +1,8 @@
-﻿namespace Autopood.Models
+﻿namespace Autopood.Models.Car
 {
-    public class CarModel
+    public class CarModelIndexViewModel
     {
-        public int CarId { get; set; }
+        public Guid? Id { get; set; }
         public string Mark { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
@@ -15,6 +15,7 @@
         public int Milage { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
-        ICollection<CarModel> Cars { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime ModifiedAt { get; set; }
     }
 }
