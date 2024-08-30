@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\login\\loginsucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\loginsucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\t\u00F6\u00F6laud\\autofarm\\loginpood\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:45:51.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:52:30.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:52:13.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:48:32.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:45:49.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginSucess.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\LoginSucess.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
+              "RelativeToolTip": "Views\\Login\\LoginSucess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:40:39.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:39:08.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:26:03.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:23:49.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\T\u00F6\u00F6laud\\AutoFarm\\LogInPood\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:14:48.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
