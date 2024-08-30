@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\areas\\identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\autopood.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\autopood.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\autopood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEB6262-589F-41F1-A138-5925718EA1BD}|Autopood\\Autopood.csproj|solutionrelative:autopood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Autopood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Autopood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T04:19:57.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Autopood\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Autopood\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T04:18:35.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Program.cs",
+              "RelativeDocumentMoniker": "Autopood\\Program.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Program.cs*",
+              "RelativeToolTip": "Autopood\\Program.cs*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T04:16:58.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Autopood\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "Autopood\\Areas\\Identity\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T04:16:47.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Data\\AppUser.cs",
+              "RelativeDocumentMoniker": "Autopood\\Areas\\Identity\\Data\\AppUser.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Areas\\Identity\\Data\\AppUser.cs",
+              "RelativeToolTip": "Autopood\\Areas\\Identity\\Data\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T04:16:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Autopood\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Autopood\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-30T04:16:03.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Autopood",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Autopood.csproj",
+              "RelativeDocumentMoniker": "Autopood\\Autopood.csproj",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Autopood.csproj",
+              "RelativeToolTip": "Autopood\\Autopood.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T04:13:32.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Autopood\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\Autopood\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Autopood\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T04:11:46.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
