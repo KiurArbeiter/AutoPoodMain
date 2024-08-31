@@ -1,6 +1,6 @@
 ﻿namespace Autopood.Models.Car
 {
-    public class CarModelIndexViewModel
+    public class CarIndexViewModel
     {
         public Guid? Id { get; set; }
         public string Mark { get; set; }
