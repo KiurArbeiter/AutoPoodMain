@@ -9,47 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LogInPood
 build_property.RootNamespace = LogInPood
-build_property.ProjectDir = C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\
+build_property.ProjectDir = C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood
+build_property.MSBuildProjectDirectory = C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Home/Index.cshtml]
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Home/Privacy.cshtml]
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Login/Failed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRmFpbGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Login/LoginSucess.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5TdWNlc3MuY3NodG1s
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Login/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Login/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Login/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/_ViewImports.cshtml]
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Signup/FailedSignup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXEZhaWxlZFNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Signup/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXFNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Signup/SuccessSignup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXFN1Y2Nlc3NTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/_ViewStart.cshtml]
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shaco/OneDrive/Kool/WindowsForms/AutoPoodMain/LogInPood/Views/Login/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-81bwosrzde
+[C:/Users/shaco/OneDrive/Kool/AutoPoodMain/LogInPood/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-obhe4wnzk1

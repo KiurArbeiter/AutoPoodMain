@@ -1,46 +1,34 @@
 using LogInPood.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LogInPood.Controllers
+public class LoginController : Controller
 {
-    public class LoginController : Controller
+    private readonly IUserService _userService;
+
+    public LoginController(IUserService userService)
     {
-        public IActionResult Login()
+        _userService = userService;
+    }
+
+    public IActionResult Login()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Verify(UserModel usr)
+    {
+        var user = _userService.GetUser(usr.username, usr.password);
+
+        if (user != null)
         {
-            return View();
+            ViewBag.message = "Login Success";
+            return View("Success"); // Views/login/Shared/Success.cshtml
         }
-
-        public List<UserModel> PutValue()
+        else
         {
-            var users = new List<UserModel>
-            {
-                new UserModel{id=1,username="Kiur",password="Kiur"},
-                new UserModel{id=2,username="Marken",password="Marken"},
-                new UserModel{id=3,username="Henri",password="Henri"},
-            };
-
-            return users;
-        }
-
-        [HttpPost]
-        public IActionResult Verify(UserModel usr)
-        {
-            var u = PutValue();
-
-            var ue = u.Where(u => u.username.Equals(usr.username));
-
-            var up = ue.Where(p => p.password.Equals(usr.password));
-
-            if (up.Count() == 1)
-            {
-                ViewBag.message = "Login Success";
-                return View("Successful");//Views/login/Shared/Success.cshtml, Hiljem mergides siia molemad poed navbariga
-            }
-            else
-            {
-                ViewBag.message = "Login Failed, Please try again!";
-                return View("Failed");//Views/login/Shared/Failed.cshtml
-            }
+            ViewBag.message = "Login Failed, Please try again!";
+            return View("Failed"); // Views/login/Shared/Failed.cshtml
         }
     }
 }
