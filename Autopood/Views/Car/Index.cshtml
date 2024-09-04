@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Autopood.Models.Car.CarIndexViewModel>
+@{
+    int rowNumber = 1;
+}
+<div class="h1">Cars</div>
+<div>
+    <a asp-action="Create" asp-controller="car" type="submit" class="btn btn-primary">Create</a>
+</div>
+<form method="post">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Model</th>
+                <th scope="col">Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@car.Engine</td>
+                    <td>@car.Seats</td>
+                    <td>@car.Inspection</td>
+                    <td>@car.Price</td>
+                    <td>
+                        @if (car.IsCarSold)
+                        {
+                            @("SOLD!!!")
+                        }
+                        else
+                        {
+                            @("Available")
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="details" asp-controller="car" asp-route-id="@car.Id" class="btn btn-info">Details</a>
+                        <a asp-action="Update" asp-controller="car" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="delete" asp-controller="car" asp-route-id="@car.Id" type="submit" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+    </table>
+</form>

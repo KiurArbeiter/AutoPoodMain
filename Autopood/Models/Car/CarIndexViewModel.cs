@@ -15,6 +15,7 @@
         public int Milage { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
+        public bool IsCarSold { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }
     }
