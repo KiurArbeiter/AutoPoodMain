@@ -4,7 +4,7 @@
 }
 <div class="h1">Cars</div>
 <div>
-    <a asp-action="Create" asp-controller="Car" type="submit" class="btn btn-primary">Create</a>
+    <a asp-action="Create" asp-controller="Cars" type="submit" class="btn btn-primary">Create</a>
 </div>
 <form method="post">
     <table class="table table-hover">
@@ -38,9 +38,9 @@
                         }
                     </td>
                     <td>
-                        <a asp-action="details" asp-controller="Car" asp-route-id="@car.Id" class="btn btn-info">Details</a>
-                        <a asp-action="Update" asp-controller="Car" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
-                        <a asp-action="delete" asp-controller="Car" asp-route-id="@car.Id" type="submit" class="btn btn-danger">Delete</a>
+                        <a asp-action="details" asp-controller="Cars" asp-route-id="@car.Id" class="btn btn-info">Details</a>
+                        <a asp-action="Update" asp-controller="Cars" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="delete" asp-controller="Cars" asp-route-id="@car.Id" type="submit" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
                 rowNumber++;

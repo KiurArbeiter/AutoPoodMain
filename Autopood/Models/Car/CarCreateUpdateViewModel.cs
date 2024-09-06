@@ -17,6 +17,8 @@
         public bool Inspection { get; set; }
         public List<IFormFile> Files { get; set; }
         public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
+        public List<FileToApiViewModel> FileToApiViewModels { get; set; } = new List<FileToApiViewModel>(); //file viewmodels
+
 
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }
