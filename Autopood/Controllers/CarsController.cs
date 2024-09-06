@@ -4,6 +4,7 @@ using Autopood.ServiceInterface;
 using Autopood.Dto;
 using Microsoft.EntityFrameworkCore;
 using Autopood.Models.Car;
+using Autopood.Data;
 
 namespace Autopood.Controllers
 {
@@ -23,6 +24,7 @@ namespace Autopood.Controllers
             _carsServices = carsServices;
             _filesServices = filesServices;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             var result = _context.Cars
