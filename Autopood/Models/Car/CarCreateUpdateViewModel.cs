@@ -11,7 +11,7 @@
         public string Register { get; set; }
         public int SerialNumber { get; set; }
         public string Engine { get; set; }
-        public string Tires { get; set; }
+        public string? Tires { get; set; }
         public int Milage { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }

@@ -26,6 +26,11 @@ namespace Autopood.Services
             car.Id = dto.Id;
             car.Price = dto.Price;
             car.Mark = dto.Mark;
+            car.Model = dto.Model;
+            car.Engine = dto.Engine;
+            car.Register = dto.Register;
+            car.Tires = dto.Tires;
+            car.Milage = dto.Milage;
             car.Description = dto.Description;
             car.CreatedAt = dto.CreatedAt;
             car.ModifiedAt = dto.ModifiedAt;
@@ -46,6 +51,11 @@ namespace Autopood.Services
                 Id = dto.Id,
                 Price = dto.Price,
                 Mark = dto.Mark,
+                Model = dto.Model,
+                Engine = dto.Engine,
+                Register = dto.Register,
+                Tires = dto.Tires,
+                Milage = dto.Milage,
                 Description = dto.Description,
                 CreatedAt = dto.CreatedAt,
                 ModifiedAt = dto.ModifiedAt,

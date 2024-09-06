@@ -60,6 +60,7 @@ namespace Autopood.Controllers
                 SerialNumber = vm.SerialNumber,
                 Engine = vm.Engine,
                 Seats = vm.Seats,
+                Tires = vm.Tires,
                 Inspection = vm.Inspection,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = vm.ModifiedAt,
@@ -110,6 +111,7 @@ namespace Autopood.Controllers
             vm.Register = car.Register;
             vm.SerialNumber = car.SerialNumber;
             vm.Engine = car.Engine;
+            vm.Tires = car.Tires;
             vm.Seats = car.Seats;
             vm.Inspection = car.Inspection;
             vm.CreatedAt = car.CreatedAt;
@@ -125,7 +127,16 @@ namespace Autopood.Controllers
             {
                 Id = vm.Id,
                 Price = vm.Price,
+                Inspection = vm.Inspection,
+                Milage = vm.Milage,
                 Mark = vm.Mark,
+                Engine = vm.Engine,
+                Register = vm.Register,
+                Tires = vm.Tires,
+                Seats = vm.Seats,
+                Year = vm.Year,
+                SerialNumber = vm.SerialNumber,
+                Model = vm.Model,
                 Description = vm.Description,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = DateTime.Now,
@@ -169,7 +180,15 @@ namespace Autopood.Controllers
 
             vm.Id = car.Id;
             vm.Price = car.Price;
+            vm.Model = car.Model;
+            vm.Milage = car.Milage;
+            vm.Inspection = car.Inspection;
+            vm.Register = car.Register;
+            vm.Tires = car.Tires;
+            vm.Seats = car.Seats;
+            vm.Year = car.Year;
             vm.Mark = car.Mark;
+            vm.Engine = car.Engine;
             vm.Description = car.Description;
             vm.CreatedAt = car.CreatedAt;
             vm.ModifiedAt = car.ModifiedAt;
@@ -203,6 +222,7 @@ namespace Autopood.Controllers
             vm.Id = car.Id;
             vm.Price = car.Price;
             vm.Mark = car.Mark;
+            vm.Engine = car.Engine;
             vm.Description = car.Description;
             vm.CreatedAt = car.CreatedAt;
             vm.ModifiedAt = car.ModifiedAt;
