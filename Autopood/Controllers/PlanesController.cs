@@ -22,6 +22,7 @@ namespace Autopood.Controllers
             _planesServices = planesServices;
             _filesServices = filesServices;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             var result = _context.Planes

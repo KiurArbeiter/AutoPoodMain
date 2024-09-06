@@ -1,12 +1,16 @@
 using Autopood.ServiceInterface;
 using Autopood.Services;
 using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IPlanesServices, PlanesServices>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IFilesServices, FilesServices>();
+builder.Services.AddDbContext<AutopoodContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
