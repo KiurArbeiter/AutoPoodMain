@@ -31,9 +31,19 @@ namespace Autopood.Controllers
                 {
                     Id = x.Id,
                     Name = x.Name,
+                    Description = x.Description,
+                    Price = x.Price,
                     Model = x.Model,
+                    Year = x.Year,
+                    Register = x.Register,
+                    SerialNumber = x.SerialNumber,
+                    Engine = x.Engine,
+                    Propeller = x.Propeller,
+                    TotalTime = x.TotalTime,
                     Seats = x.Seats,
-                    Engine = x.Engine
+                    Inspection = x.Inspection,
+                    CreatedAt = x.CreatedAt,
+                    ModifiedAt = x.ModifiedAt,
                 });
             return View(result);
         }
@@ -126,9 +136,18 @@ namespace Autopood.Controllers
             var dto = new PlaneDto()
             {
                 Id = vm.Id,
-                Price = vm.Price,
                 Name = vm.Name,
                 Description = vm.Description,
+                Price = vm.Price,
+                Model = vm.Model,
+                Year = vm.Year,
+                Register = vm.Register,
+                SerialNumber = vm.SerialNumber,
+                Engine = vm.Engine,
+                Propeller = vm.Propeller,
+                TotalTime = vm.TotalTime,
+                Seats = vm.Seats,
+                Inspection = vm.Inspection,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = DateTime.Now,
                 Files = vm.Files,

@@ -22,9 +22,18 @@ namespace Autopood.Services
             Plane plane = new Plane();
             FileToDatabase file = new FileToDatabase();
             plane.Id = dto.Id;
-            plane.Price = dto.Price;
             plane.Name = dto.Name;
             plane.Description = dto.Description;
+            plane.Price = dto.Price;
+            plane.Model = dto.Model;
+            plane.Year = dto.Year;
+            plane.Register = dto.Register;
+            plane.SerialNumber = dto.SerialNumber;
+            plane.Engine = dto.Engine;
+            plane.Propeller = dto.Propeller;
+            plane.TotalTime = dto.TotalTime;
+            plane.Seats = dto.Seats;
+            plane.Inspection = dto.Inspection;
             plane.CreatedAt = dto.CreatedAt;
             plane.ModifiedAt = dto.ModifiedAt;
 
@@ -42,9 +51,18 @@ namespace Autopood.Services
             var domain = new Plane()
             {
                 Id = dto.Id,
-                Price = dto.Price,
                 Name = dto.Name,
                 Description = dto.Description,
+                Price = dto.Price,
+                Model = dto.Model,
+                Year = dto.Year,
+                Register = dto.Register,
+                SerialNumber = dto.SerialNumber,
+                Engine = dto.Engine,
+                Propeller = dto.Propeller,
+                TotalTime = dto.TotalTime,
+                Seats = dto.Seats,
+                Inspection = dto.Inspection,
                 CreatedAt = dto.CreatedAt,
                 ModifiedAt = dto.ModifiedAt,
             };
@@ -70,6 +88,7 @@ namespace Autopood.Services
                 .Select(y => new FileToDatabaseDto
                 {
                     Id = y.Id,
+                    ImageData = y.ImageData,
                     ImageTitle = y.ImageTitle,
                     PlaneId = y.PlaneId
                 }).ToArrayAsync();

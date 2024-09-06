@@ -6,7 +6,7 @@
     Products
 </div>
 <div>
-    <a asp-action="Create" asp-controller="Plane" type="submit" class="btn btn-primary">Add</a>
+    <a asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary">Add</a>
 </div>
 
 <form method="post">
@@ -22,18 +22,18 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var car in Model)
+            @foreach (var Plane in Model)
             {
                 <tr>
                     <td>@rowNumber</td>
-                    <td>@car.Name</td>
-                    <td>@car.Model</td>
-                    <td>@car.Seats</td>
-                    <td>@car.Propeller</td>
+                    <td>@Plane.Name</td>
+                    <td>@Plane.Model</td>
+                    <td>@Plane.Seats</td>
+                    <td>@Plane.Propeller</td>
                     <td>
-                        <a asp-action="details" asp-controller="cars" asp-route-id="@car.Id" class="btn btn-info">Details</a>
-                        <a asp-action="update" asp-controller="cars" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
-                        <a asp-action="delete" asp-controller="cars" asp-route-id="@car.Id" class="btn btn-danger">Delete</a>
+                        <a asp-action="details" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-info">Details</a>
+                        <a asp-action="update" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="delete" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
                 rowNumber += 1;

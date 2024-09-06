@@ -71,7 +71,7 @@ else
         <div class="form-group row">
             <label asp-for="TotalTime" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="TotalTime" class="form-check-input" />
+                <input asp-for="TotalTime" class="form-control" />
             </div>
         </div>
         <div class="form-group row">
@@ -83,7 +83,7 @@ else
         <div class="form-group row">
             <label asp-for="Inspection" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="Inspection" class="form-control" />
+                <input type="checkbox" asp-for="Inspection"/>
             </div>
         </div>
         <div class="form-group row">
@@ -98,18 +98,18 @@ else
         @foreach (var images in Model.Image)
         {
             <partial name="_images" model="images"/>
-            <input asp-action="removeImage" asp-controller="Plane" asp-route-imageId="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image"/>
+            <input asp-action="removeImage" asp-controller="Planes" asp-route-imageId="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image"/>
         }
         <hr />
         @if (Model.Id != Guid.Empty)
         {
-            <input asp-action="Update" asp-controller="Plane" type="submit" class="btn btn-primary" value="Update" />
+            <input asp-action="Update" asp-controller="Planes" type="submit" class="btn btn-primary" value="Update" />
         }
         else
         {
-            <input asp-action="Create" asp-controller="Plane" type="submit" class="btn btn-primary" value="Create" />            
+            <input asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary" value="Create" />            
         }
-        <a asp-action="Index" asp-controller="Plane" class="btn btn-primary">Cancel</a>
+        <a asp-action="Index" asp-controller="Planes" class="btn btn-primary">Cancel</a>
     </form>
 </div>
 
