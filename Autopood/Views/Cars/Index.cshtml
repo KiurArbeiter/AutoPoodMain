@@ -2,9 +2,93 @@
 @{
     int rowNumber = 1;
 }
-<div class="h1">Cars</div>
+<style>
+
+    .btn_create {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 6px 6px;
+    }
+
+    .btn_create:hover {
+        color: dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 6px 6px;
+    }
+
+    .btn_details{
+        color:white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_details:hover {
+        color:dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_edit {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_edit:hover {
+        color: dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_delete {
+        color: white;
+        background-color: red;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: red;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_delete:hover {
+        color: red;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: red;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+
+</style>
+<div class="h1" style="margin:2px;">Cars</div>
 <div>
-    <a asp-action="Create" asp-controller="Cars" type="submit" class="btn btn-primary">Create</a>
+    <a asp-action="Create" asp-controller="Cars" type="submit" class="btn_create">Create new car</a>
 </div>
 <form method="post">
     <table class="table table-hover">
@@ -38,9 +122,9 @@
                         }
                     </td>
                     <td>
-                        <a asp-action="details" asp-controller="Cars" asp-route-id="@car.Id" class="btn btn-info">Details</a>
-                        <a asp-action="Update" asp-controller="Cars" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
-                        <a asp-action="delete" asp-controller="Cars" asp-route-id="@car.Id" type="submit" class="btn btn-danger">Delete</a>
+                        <a asp-action="details" asp-controller="Cars" asp-route-id="@car.Id" class="btn_details">Details</a>
+                        <a asp-action="Update" asp-controller="Cars" asp-route-id="@car.Id" class="btn_edit">Edit</a>
+                        <a asp-action="delete" asp-controller="Cars" asp-route-id="@car.Id" type="submit" class="btn_delete">Delete</a>
                     </td>
                 </tr>
                 rowNumber++;
