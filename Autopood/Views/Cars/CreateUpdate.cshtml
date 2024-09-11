@@ -103,14 +103,10 @@ else
             </div>
 
             <hr />
-
-            @if (Model.FileToApiViewModels != null)
+            @foreach (var images in Model.Image)
             {
-                @foreach (var images in Model.FileToApiViewModels)
-                {
-                    <partial name="_Images" model="images" />
-                    <input asp-action="removeImage" asp-controller="Cars" asp-route-imageID="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image" />
-                }
+                <partial name="_Images" model="images" />
+                <input asp-action="removeImage" asp-controller="Cars" asp-route-imageID="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image" />
             }
 
             @if (Model.Id.HasValue)
