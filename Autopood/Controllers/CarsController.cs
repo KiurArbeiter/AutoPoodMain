@@ -35,6 +35,8 @@ namespace Autopood.Controllers
                     Mark = x.Mark,
                     Model = x.Model,
                     Seats = x.Seats,
+                    Price = x.Price,
+                    Year = x.Year,
                     Engine = x.Engine
                 });
             return View(result);
@@ -60,6 +62,7 @@ namespace Autopood.Controllers
                 SerialNumber = vm.SerialNumber,
                 Engine = vm.Engine,
                 Seats = vm.Seats,
+                Milage = vm.Milage,
                 Tires = vm.Tires,
                 Inspection = vm.Inspection,
                 CreatedAt = vm.CreatedAt,
@@ -105,6 +108,7 @@ namespace Autopood.Controllers
             vm.Id = car.Id;
             vm.Price = car.Price;
             vm.Mark = car.Mark;
+            vm.Milage = car.Milage;
             vm.Description = car.Description;
             vm.Model = car.Model;
             vm.Year = car.Year;
@@ -183,6 +187,7 @@ namespace Autopood.Controllers
             vm.Model = car.Model;
             vm.Milage = car.Milage;
             vm.Inspection = car.Inspection;
+            vm.SerialNumber = car.SerialNumber;
             vm.Register = car.Register;
             vm.Tires = car.Tires;
             vm.Seats = car.Seats;
@@ -221,6 +226,14 @@ namespace Autopood.Controllers
 
             vm.Id = car.Id;
             vm.Price = car.Price;
+            vm.Model = car.Model;
+            vm.Milage = car.Milage;
+            vm.Inspection = car.Inspection;
+            vm.SerialNumber = car.SerialNumber;
+            vm.Register = car.Register;
+            vm.Tires = car.Tires;
+            vm.Seats = car.Seats;
+            vm.Year = car.Year;
             vm.Mark = car.Mark;
             vm.Engine = car.Engine;
             vm.Description = car.Description;

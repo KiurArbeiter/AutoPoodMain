@@ -25,12 +25,16 @@ namespace Autopood.Services
             FileToDatabase file = new FileToDatabase();
             car.Id = dto.Id;
             car.Price = dto.Price;
+            car.Year = dto.Year;
+            car.Milage = dto.Milage;
+            car.Seats = dto.Seats;
             car.Mark = dto.Mark;
             car.Model = dto.Model;
             car.Engine = dto.Engine;
             car.Register = dto.Register;
             car.Tires = dto.Tires;
-            car.Milage = dto.Milage;
+            car.Inspection = dto.Inspection;
+            car.SerialNumber = dto.SerialNumber;
             car.Description = dto.Description;
             car.CreatedAt = dto.CreatedAt;
             car.ModifiedAt = dto.ModifiedAt;
@@ -50,12 +54,16 @@ namespace Autopood.Services
             {
                 Id = dto.Id,
                 Price = dto.Price,
+                Year = dto.Year,
+                Seats = dto.Seats,
+                Milage = dto.Milage,
                 Mark = dto.Mark,
                 Model = dto.Model,
                 Engine = dto.Engine,
                 Register = dto.Register,
+                SerialNumber = dto.SerialNumber,
+                Inspection = dto.Inspection,
                 Tires = dto.Tires,
-                Milage = dto.Milage,
                 Description = dto.Description,
                 CreatedAt = dto.CreatedAt,
                 ModifiedAt = dto.ModifiedAt,
