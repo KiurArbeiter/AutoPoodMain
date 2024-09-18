@@ -15,6 +15,7 @@
         public int TotalTime { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
+        public string Image {  get; set; }
 
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }

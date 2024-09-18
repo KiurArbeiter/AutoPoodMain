@@ -15,9 +15,9 @@
             <tr>
                 <th scope="col">Nr</th>
                 <th scope="col">Name</th>
-                <th scope="col">Type</th>
-                <th scope="col">Passengers</th>
-                <th scope="col">Engine Power</th>
+                <th scope="col">Model</th>
+                <th scope="col">Seats</th>
+                <th scope="col">Engine</th>
                 <th></th>
             </tr>
         </thead>
@@ -29,7 +29,7 @@
                     <td>@Plane.Name</td>
                     <td>@Plane.Model</td>
                     <td>@Plane.Seats</td>
-                    <td>@Plane.Propeller</td>
+                    <td>@Plane.Engine</td>
                     <td>
                         <a asp-action="details" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-info">Details</a>
                         <a asp-action="update" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-primary">Edit</a>
