@@ -31,4 +31,20 @@ public class LoginController : Controller
             return View("Failed"); // Views/login/Shared/Failed.cshtml
         }
     }
+    [HttpPost]
+    public IActionResult AdminVerify(AdminModel usr)
+    {
+        var user = _userService.GetAdmin(usr.username, usr.password);
+
+        if (user != null)
+        {
+            ViewBag.message = "ADMIN LOGIN SUCCESSFUL";
+            return View("AdminLogin"); // Views/login/Shared/AdminLogin.cshtml
+        }
+        else
+        {
+            ViewBag.message = "Login Failed, Please try again!";
+            return View("Failed"); // Ensure this is the correct path for Failed.cshtml
+        }
+    }
 }

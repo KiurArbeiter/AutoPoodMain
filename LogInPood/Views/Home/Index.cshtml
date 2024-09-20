@@ -107,7 +107,7 @@
 </head>
 <body>
     <div id="login-box">
-        @using (Html.BeginForm("Verify", "Login", FormMethod.Post))
+        @using (Html.BeginForm("Verify", "Login", FormMethod.Post)) // "Verify" kui user ja "AdminVerify" kui admin
         {
             <h3 class="text-center">Login</h3>
             <div class="form-group">

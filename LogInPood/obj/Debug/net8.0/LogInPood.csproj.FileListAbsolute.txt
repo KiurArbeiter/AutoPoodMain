@@ -51,7 +51,6 @@ C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LogInPood.props
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LogInPood.props
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\scopedcss\Views\Login\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\scopedcss\bundle\LogInPood.styles.css
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\scopedcss\projectbundle\LogInPood.bundle.scp.css
 C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\LogInPood.dll
@@ -90,3 +89,4 @@ C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood\obj\Debug\net8.0\LogInPood.p
 C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood\obj\Debug\net8.0\LogInPood.genruntimeconfig.cache
 C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood\obj\Debug\net8.0\ref\LogInPood.dll
 C:\Users\shaco\OneDrive\Kool\AutoPoodMain\LogInPood\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\shaco\OneDrive\Kool\WindowsForms\AutoPoodMain\LogInPood\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

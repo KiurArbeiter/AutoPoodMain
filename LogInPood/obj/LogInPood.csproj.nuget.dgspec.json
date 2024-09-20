@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\LogInPood.csproj": {}
+    "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\LogInPood.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\LogInPood.csproj": {
+    "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\LogInPood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\LogInPood.csproj",
+        "projectUniqueName": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\LogInPood.csproj",
         "projectName": "LogInPood",
-        "projectPath": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\LogInPood.csproj",
+        "projectPath": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\LogInPood.csproj",
         "packagesPath": "C:\\Users\\shaco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\obj\\",
+        "outputPath": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

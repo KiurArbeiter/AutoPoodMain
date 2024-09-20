@@ -1,88 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\",
+  "WorkspaceRootPath": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\signup\\successsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\successsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\signup\\failedsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\failedsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\loginpood\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\loginpood\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\autopoodmain\\loginpood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\loginpood\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\shaco\\onedrive\\kool\\windowsforms\\autopoodmain\\loginpood\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\loginsucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\signup\\successsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\successsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\signup\\failedsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\failedsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\loginsucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\login\\loginsucess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -96,115 +110,63 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeToolTip": "Views\\Login\\AdminLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T15:38:00.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Failed.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Failed.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
+              "RelativeToolTip": "Views\\Login\\Failed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T05:42:28.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwCIAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T05:26:03.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Signup.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
-              "RelativeDocumentMoniker": "Views\\Signup\\Signup.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
-              "RelativeToolTip": "Views\\Signup\\Signup.cshtml",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAIwGYAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T07:37:19.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignupController.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SignupController.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
-              "RelativeToolTip": "Controllers\\SignupController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T05:51:15.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T05:52:13.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Models\\UserModel.cs",
-              "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:23:49.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FailedSignup.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\FailedSignup.cshtml",
-              "RelativeDocumentMoniker": "Views\\Signup\\FailedSignup.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\FailedSignup.cshtml",
-              "RelativeToolTip": "Views\\Signup\\FailedSignup.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T07:38:42.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SuccessSignup.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\SuccessSignup.cshtml",
-              "RelativeDocumentMoniker": "Views\\Signup\\SuccessSignup.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Signup\\SuccessSignup.cshtml",
-              "RelativeToolTip": "Views\\Signup\\SuccessSignup.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T07:38:25.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwB8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T08:47:36.596Z",
+              "WhenOpened": "2024-09-01T07:46:27.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -214,62 +176,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Failed.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Failed.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
-              "RelativeToolTip": "Views\\Login\\Failed.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T05:42:28.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Success.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
-              "RelativeToolTip": "Views\\Login\\Success.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T05:42:21.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T08:44:30.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:14:48.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -278,37 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T07:46:27.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwB0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T05:52:30.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -317,23 +201,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\..\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "..\\..\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAADwv28AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T05:39:08.762Z"
+              "WhenOpened": "2024-08-30T05:52:13.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:52:30.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\AdminModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminModel.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\AdminModel.cs",
+              "RelativeToolTip": "Models\\AdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T15:02:27.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:47:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -342,28 +266,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginSucess.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
-              "RelativeDocumentMoniker": "..\\..\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
-              "RelativeToolTip": "..\\..\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwB0AAAAHAAAA",
+              "DocumentIndex": 7,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Success.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
+              "RelativeToolTip": "Views\\Login\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T05:40:39.025Z"
+              "WhenOpened": "2024-09-01T05:42:21.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignupController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignupController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
+              "RelativeToolTip": "Controllers\\SignupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T05:51:15.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:44:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:14:48.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\AutoPoodMain\\LogInPood\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T05:48:32.499Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:23:49.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T15:04:13.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SuccessSignup.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\SuccessSignup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Signup\\SuccessSignup.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\SuccessSignup.cshtml",
+              "RelativeToolTip": "Views\\Signup\\SuccessSignup.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T07:38:25.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FailedSignup.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\FailedSignup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Signup\\FailedSignup.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\FailedSignup.cshtml",
+              "RelativeToolTip": "Views\\Signup\\FailedSignup.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T07:38:42.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Signup\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
+              "RelativeToolTip": "Views\\Signup\\Signup.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAIwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T07:37:19.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:39:08.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginSucess.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\LoginSucess.cshtml",
+              "ToolTip": "C:\\Users\\shaco\\OneDrive\\Kool\\WindowsForms\\AutoPoodMain\\LogInPood\\Views\\Login\\LoginSucess.cshtml",
+              "RelativeToolTip": "Views\\Login\\LoginSucess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T05:40:39.025Z"
             }
           ]
         }
