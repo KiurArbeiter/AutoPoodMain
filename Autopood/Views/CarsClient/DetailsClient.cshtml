@@ -81,19 +81,19 @@
                     <partial name="_Images" model="images" />
                 }
             </dl>
-            <a asp-action="Index" asp-controller="Cars" class="btn_edit">Back</a>
+            <a asp-action="IndexClient" asp-controller="CarsClient" class="btn_edit">Back</a>
         </div>
         <div>
             <div style="display: flex; flex-direction: column; width: 500px; height:500px;">
                 @foreach (var images in Model.Image)
                 {
                     <partial name="_Images" model="images" />
-                    
+                   
                 }
             </div>
         </div>
     </div>
-    
+
 </div>
 <style>
 

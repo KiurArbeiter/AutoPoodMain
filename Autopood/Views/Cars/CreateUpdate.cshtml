@@ -110,7 +110,7 @@ else
                 }
                 else
                 {
-                    <input asp-action="create" asp-controller="Cars" type="submit" class="btn_create" value="Create" />
+                    <input asp-action="create" asp-controller="Cars" type="submit" class="btn_edit" value="Create" />
                 }
 
                 <a asp-action="Index" class="btn_edit">Back</a>
@@ -120,14 +120,12 @@ else
                     @foreach (var images in Model.Image)
                     {
                         <partial name="_Images" model="images"/>
-                        <input asp-action="removeImage" asp-controller="cars" asp-route-imageID="@images.ImageId" type="submit" class="btn_delete" style="width: 150px; position:absolute; bottom: 46%; right:50%; "value="Remove Image" />
+                        <input asp-action="removeImage" asp-controller="cars" asp-route-imageID="@images.ImageId" type="submit" class="btn_delete" style="width: 150px; position:absolute; bottom: 22.5%; right:50%; "value="Remove Image" />
                     }
                 </div> 
             </div>
            
         </div>
-
-
 
     </form>
 </div>

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Autopood.Migrations
 {
     /// <inheritdoc />
-    public partial class kaka : Migration
+    public partial class abaa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
