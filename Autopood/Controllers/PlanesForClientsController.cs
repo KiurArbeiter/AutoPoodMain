@@ -6,12 +6,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Autopood.Controllers
 {
-    public class PlanesController : Controller
+    public class PlanesForClientsController : Controller
     {
         private readonly AutopoodContext _context;
         private readonly IPlanesServices _planesServices;
         private readonly IFilesServices _filesServices;
-        public PlanesController
+        public PlanesForClientsController
             (
                 AutopoodContext context,
                 IPlanesServices planesServices,

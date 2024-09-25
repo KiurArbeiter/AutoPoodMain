@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Autopood.Models.Plane.PlaneIndexViewModel>
+﻿@model IEnumerable<Autopood.Models.Plane.PlaneClientIndexViewModel>
 @{
     int rowNumber = 1;
 }
@@ -6,7 +6,7 @@
     Products
 </div>
 <div>
-    <a asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary">Add</a>
+    <a asp-action="Create" asp-controller="PlanesForClients" type="submit" class="btn btn-primary">Add</a>
 </div>
 
 <form method="post">
@@ -18,7 +18,6 @@
                 <th scope="col">Model</th>
                 <th scope="col">Seats</th>
                 <th scope="col">Engine</th>
-                <th></th>
             </tr>
         </thead>
         <tbody>
