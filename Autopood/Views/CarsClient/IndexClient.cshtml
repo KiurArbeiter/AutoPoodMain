@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Autopood.Models.Car.CarIndexViewModel>
+@{
+    int rowNumber = 1;
+}
+<style>
+
+    .btn_create {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 6px 6px;
+        margin-top: 5px;
+    }
+
+    .btn_create:hover {
+        color: dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 6px 6px;
+    }
+
+    .btn_details{
+        color:white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_details:hover {
+        color:dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_edit {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_edit:hover {
+        color: dimgray;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_delete {
+        color: white;
+        background-color: red;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: red;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+    .btn_delete:hover {
+        color: red;
+        background-color: white;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: red;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+
+</style>
+<div class="h1" style="margin:2px; padding-bottom: 2px">Cars</div>
+
+<form method="post">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Mark</th>
+                <th scope="col">Model</th>
+                <th scope="col">Engine</th>
+                <th scope="col">Price</th>
+                <th scope="col">Is Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@car.Mark</td>
+                    <td>@car.Model</td>
+                    <td>@car.Engine</td>
+                    <td>@car.Price</td>
+                    <td>
+                        @if (car.IsCarSold)
+                        {
+                            @("SOLD!!!")
+                        }
+                        else
+                        {
+                            @("Available")
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="DetailsClient" asp-controller="CarsClient" asp-route-id="@car.Id" class="btn_details">Details</a>
+                    </td>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+    </table>
+</form>
