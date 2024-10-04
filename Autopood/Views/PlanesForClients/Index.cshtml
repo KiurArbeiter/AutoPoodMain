@@ -1,12 +1,9 @@
-﻿@model IEnumerable<Autopood.Models.Plane.PlaneClientIndexViewModel>
+﻿@model IEnumerable<Autopood.Models.PlanesForClients.PlaneClientIndexViewModel>
 @{
     int rowNumber = 1;
 }
 <div class="h1">
     Products
-</div>
-<div>
-    <a asp-action="Create" asp-controller="PlanesForClients" type="submit" class="btn btn-primary">Add</a>
 </div>
 
 <form method="post">
@@ -29,6 +26,9 @@
                     <td>@Plane.Model</td>
                     <td>@Plane.Seats</td>
                     <td>@Plane.Engine</td>
+                    <td>
+                        <a asp-action="details" asp-controller="PlanesForClients" asp-route-id="@Plane.Id" class="btn btn-info">Details</a>
+                    </td>
                 </tr>
                 rowNumber += 1;
             }

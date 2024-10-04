@@ -1,4 +1,4 @@
-﻿namespace Autopood.Models.Plane
+﻿namespace Autopood.Models.PlanesForClients
 {
     public class PlaneClientIndexViewModel
     {
@@ -19,5 +19,5 @@
 
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }
-     }
+    }
 }

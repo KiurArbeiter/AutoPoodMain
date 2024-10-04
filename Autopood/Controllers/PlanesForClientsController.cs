@@ -3,6 +3,7 @@ using Autopood.Models.Plane;
 using Autopood.ServiceInterface;
 using Autopood.Dto;
 using Microsoft.EntityFrameworkCore;
+using Autopood.Models.PlanesForClients;
 
 namespace Autopood.Controllers
 {
@@ -27,7 +28,7 @@ namespace Autopood.Controllers
         {
             var result = _context.Planes
                 .OrderByDescending(y => y.CreatedAt)
-                .Select(x => new PlaneIndexViewModel
+                .Select(x => new PlaneClientIndexViewModel
                 {
                     Id = x.Id,
                     Name = x.Name,
@@ -186,7 +187,7 @@ namespace Autopood.Controllers
                     ImageTitle = y.ImageTitle,
                     Image = string.Format("data:image/gif;base64,{0}", Convert.ToBase64String(y.ImageData))
                 }).ToArrayAsync();
-            var vm = new PlaneDetailsViewModel();
+            var vm = new PlaneClientDetailsViewModel();
 
             vm.Id = plane.Id;
             vm.Price = plane.Price;
