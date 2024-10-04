@@ -1,10 +1,6 @@
-<<<<<<<< HEAD:Autopood/Models/PlanesForClients/PlaneClientIndexViewModel.cs
-﻿namespace Autopood.Models.PlanesForClients
-========
-﻿namespace Autopood.Models.PlaneClient
->>>>>>>> 605c0b20215774aba57612c4b31e90a1c1704f72:Autopood/Models/PlaneClient/PlaneClientIndexViewModel.cs
+﻿namespace Autopood.Models.Plane
 {
-    public class PlaneClientIndexViewModel
+    public class PlaneClientDetailsViewModel
     {
         public Guid? Id { get; set; }
         public string Name { get; set; }
@@ -19,7 +15,9 @@
         public int TotalTime { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
-        public string Image { get; set; }
+        public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
+
+
 
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }

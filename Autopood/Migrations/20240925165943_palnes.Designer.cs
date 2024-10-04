@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Autopood.Migrations
 {
     [DbContext(typeof(AutopoodContext))]
-    [Migration("20240906102836_Xdtrvgyhuj")]
-    partial class Xdtrvgyhuj
+    [Migration("20240925165943_palnes")]
+    partial class palnes
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

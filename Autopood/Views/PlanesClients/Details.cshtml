@@ -1,0 +1,78 @@
+﻿@model Autopood.Models.Plane.PlaneClientDetailsViewModel
+@{
+    string autopilot = "";
+    string lifesupport = "";
+}
+<h1>Details</h1>
+
+<div>
+    <h4>Planes</h4>
+    <dl class="row">
+
+        <div class="form-group row">
+            <label asp-for="Id" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Id)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Name)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Price" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Price)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Model" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Model)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Description)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Year" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Year)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Register" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Register)
+        </div>
+        <div class="form-group row">
+            <label asp-for="SerialNumber" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.SerialNumber)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Engine" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Engine)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Propeller" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Propeller)
+        </div>
+        <div class="form-group row">
+            <label asp-for="TotalTime" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.TotalTime)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Seats" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Seats)
+        </div>
+        <div class="form-group row">
+            <label asp-for="Inspection" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Inspection)
+        </div>
+        <div class="form-group row">
+            <label asp-for="CreatedAt" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.CreatedAt)
+        </div>
+        <div class="form-group row">
+            <label asp-for="ModifiedAt" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.ModifiedAt)
+        </div>
+        @foreach (var images in Model.Image)
+        {
+            <partial name="_Images" model="images" />
+        }
+    </dl>
+    <a asp-action="Index" asp-controller="Planes" class="btn btn-danger">Back</a>
+</div>
