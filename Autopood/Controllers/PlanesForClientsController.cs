@@ -179,7 +179,7 @@ namespace Autopood.Controllers
             }
             var photos = await _context.FilesToDatabase
                 .Where(x => x.PlaneId == id)
-                .Select(y => new ImageViewModel
+                .Select(y => new ImageClientViewModel
                 {
                     PlaneId = y.Id,
                     ImageId = y.Id,

@@ -1,6 +1,4 @@
-﻿using Autopood.Models.Plane;
-
-namespace Autopood.Models.PlanesForClients
+﻿namespace Autopood.Models.PlanesForClients
 {
     public class PlaneClientDetailsViewModel
     {
@@ -17,7 +15,7 @@ namespace Autopood.Models.PlanesForClients
         public int TotalTime { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
-        public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
+        public List<ImageClientViewModel> Image { get; set; } = new List<ImageClientViewModel>();
 
 
 
