@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:Autopood/Models/PlanesForClients/PlaneClientIndexViewModel.cs
 ﻿namespace Autopood.Models.PlanesForClients
-========
-﻿namespace Autopood.Models.PlaneClient
->>>>>>>> 605c0b20215774aba57612c4b31e90a1c1704f72:Autopood/Models/PlaneClient/PlaneClientIndexViewModel.cs
 {
     public class PlaneClientIndexViewModel
     {
