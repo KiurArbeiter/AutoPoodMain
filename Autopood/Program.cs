@@ -21,6 +21,11 @@ builder.Services.AddDbContext<AutopoodContext>(options => options.UseSqlServer(b
 builder.Services.AddScoped<IFilesServices, FilesServices>();
 builder.Services.AddScoped<ICarsServices, CarsServices>();
 
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AutopoodContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IFilesServices, FilesServices>();
+builder.Services.AddScoped<ICarsServices, CarsServices>();
+
 var app = builder.Build();
 
 
