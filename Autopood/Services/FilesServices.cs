@@ -4,6 +4,10 @@ using Autopood.Dto;
 using Autopood.ServiceInterface;
 using Microsoft.EntityFrameworkCore;
 using System.Numerics;
+﻿using Autopood.Domain;
+using Autopood.Dto;
+using Autopood.ServiceInterface;
+using Microsoft.EntityFrameworkCore;
 using IHostingEnvironment = Microsoft.Extensions.Hosting.IHostingEnvironment;
 
 namespace Autopood.Services
@@ -18,6 +22,7 @@ namespace Autopood.Services
             _webHost = webHost;
         }
         public void UploadFilesToDatabase(CarDto dto, Car domain)
+        public void UploadFilesToDatabase(PlaneDto dto, Plane domain)
         {
             if (dto.Files != null && dto.Files.Count > 0)
             {
@@ -30,6 +35,7 @@ namespace Autopood.Services
                             Id = Guid.NewGuid(),
                             ImageTitle = photo.FileName,
                             CarId = domain.Id,
+                            PlaneId = domain.Id,
                         };
                         photo.CopyTo(target);
                         files.ImageData = target.ToArray();
