@@ -1,0 +1,102 @@
+﻿@model LogInPood.Models.UserModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .signup-box {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color: #555555;
+            }
+
+            .form-group input.form-control {
+                width: 100%;
+                padding: 10px;
+                font-size: 14px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .form-group button {
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+                border-radius: 4px;
+                border: none;
+                background-color: #007bff;
+                color: #ffffff;
+                cursor: pointer;
+            }
+
+                .form-group button:hover {
+                    background-color: #0056b3;
+                }
+
+        .text-danger {
+            color: #dc3545;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-box">
+        <h2>Create a New Account</h2>
+
+        @using (Html.BeginForm("Register", "Signup", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="username">Username:</label>
+                @Html.TextBoxFor(m => m.username, new { @class = "form-control", @placeholder = "Username", @required = true })
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                @Html.PasswordFor(m => m.password, new { @class = "form-control", @placeholder = "Password", @required = true })
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        }
+
+        @if (ViewBag.message != null)
+        {
+            <div class="text-danger">@ViewBag.message</div>
+        }
+    </div>
+</body>
+</html>
