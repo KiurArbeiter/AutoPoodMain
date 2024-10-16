@@ -23,7 +23,7 @@ public class LoginController : Controller
         if (user != null)
         {
             ViewBag.message = "Login Success";
-            return View("Success"); // Views/login/Shared/Success.cshtml
+            return View("Success"); // Views/login/Shared/x
         }
         else
         {
