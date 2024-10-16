@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogInPood")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57e40ce73a5a6a8ac6d8cdba1e9001248dd15ca4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b9a2d206fed43622a98671ef8983366cf1cbf70")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogInPood")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogInPood")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
