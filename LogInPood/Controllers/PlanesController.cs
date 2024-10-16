@@ -3,6 +3,7 @@ using Autopood.Models.Plane;
 using Autopood.ServiceInterface;
 using Autopood.Dto;
 using Microsoft.EntityFrameworkCore;
+using Autopood.Data;
 
 namespace Autopood.Controllers
 {

@@ -39,7 +39,8 @@ namespace Autopood.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FilesToApi");
-                });
+                })
+            );
 
             modelBuilder.Entity("Autopood.Domain.FileToDatabase", b =>
                 {
@@ -125,7 +126,7 @@ namespace Autopood.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Tires")
+                    b.Property<int>("Tires");
                     b.Property<int>("SerialNumber")
                         .HasColumnType("int");
 

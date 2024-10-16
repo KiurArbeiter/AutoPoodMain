@@ -42,7 +42,7 @@ namespace Autopood.Services
             await _context.Cars.AddAsync(car);
             if (dto.Files != null)
             {
-                _files.UploadFilesToDatabase(dto, car);
+                _files.UploadFilesToDatabaseCar(dto, car);
             }
             await _context.SaveChangesAsync();
 
@@ -71,7 +71,7 @@ namespace Autopood.Services
 
             if (dto.Files != null)
             {
-                _files.UploadFilesToDatabase(dto, domain);
+                _files.UploadFilesToDatabaseCar(dto, domain);
             }
 
             _context.Cars.Update(domain);

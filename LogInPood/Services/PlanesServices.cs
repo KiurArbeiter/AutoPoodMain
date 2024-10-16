@@ -1,4 +1,5 @@
-﻿using Autopood.Domain;
+﻿using Autopood.Data;
+using Autopood.Domain;
 using Autopood.Dto;
 using Autopood.ServiceInterface;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +41,7 @@ namespace Autopood.Services
             await _context.Planes.AddAsync(plane);
             if (dto.Files != null)
             {
-                _files.UploadFilesToDatabase(dto, plane);
+                _files.UploadFilesToDatabasePlane(dto, plane);
             }
             await _context.SaveChangesAsync();
 
@@ -69,7 +70,7 @@ namespace Autopood.Services
 
             if (dto.Files != null)
             {
-                _files.UploadFilesToDatabase(dto, domain);
+                _files.UploadFilesToDatabasePlane(dto, domain);
             }
 
             _context.Planes.Update(domain);
