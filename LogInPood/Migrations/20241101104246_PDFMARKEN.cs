@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LogInPood.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstTest : Migration
+    public partial class PDFMARKEN : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
