@@ -16,7 +16,7 @@ namespace Autopood.Domain
         public string SerialNumber { get; set; }
         public string Engine { get; set; }
         public int Tires { get; set; }
-        public int Milage { get; set; }
+        public int Mileage { get; set; }
         public int Seats { get; set; }
         public bool Inspection { get; set; }
 

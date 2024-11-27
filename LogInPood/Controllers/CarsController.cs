@@ -62,7 +62,7 @@ namespace Autopood.Controllers
                 SerialNumber = vm.SerialNumber,
                 Engine = vm.Engine,
                 Seats = vm.Seats,
-                Milage = vm.Milage,
+                Mileage = vm.Mileage,
                 Tires = vm.Tires,
                 Inspection = vm.Inspection,
                 CreatedAt = vm.CreatedAt,
@@ -108,7 +108,7 @@ namespace Autopood.Controllers
             vm.Id = car.Id;
             vm.Price = car.Price;
             vm.Mark = car.Mark;
-            vm.Milage = car.Milage;
+            vm.Mileage = car.Mileage;
             vm.Description = car.Description;
             vm.Model = car.Model;
             vm.Year = car.Year;
@@ -132,7 +132,7 @@ namespace Autopood.Controllers
                 Id = vm.Id,
                 Price = vm.Price,
                 Inspection = vm.Inspection,
-                Milage = vm.Milage,
+                Mileage = vm.Mileage,
                 Mark = vm.Mark,
                 Engine = vm.Engine,
                 Register = vm.Register,
@@ -185,7 +185,7 @@ namespace Autopood.Controllers
             vm.Id = car.Id;
             vm.Price = car.Price;
             vm.Model = car.Model;
-            vm.Milage = car.Milage;
+            vm.Mileage = car.Mileage;
             vm.Inspection = car.Inspection;
             vm.SerialNumber = car.SerialNumber;
             vm.Register = car.Register;
@@ -227,7 +227,7 @@ namespace Autopood.Controllers
             vm.Id = car.Id;
             vm.Price = car.Price;
             vm.Model = car.Model;
-            vm.Milage = car.Milage;
+            vm.Mileage = car.Mileage;
             vm.Inspection = car.Inspection;
             vm.SerialNumber = car.SerialNumber;
             vm.Register = car.Register;
