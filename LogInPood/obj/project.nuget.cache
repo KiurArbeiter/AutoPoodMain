@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P9hNsHUlD9Z8355uO0peppRrQMmmpU7xlJajqw5MruRwG3TsltHLWTi8RFRMddbmcc6FlUVP5igW3lv+biCIcg==",
+  "dgSpecHash": "O+e57rvEDZ8Ub/1CdmD0esTtep2lP+8m8zn0TqXGKBQQGIaHR+YhKhdAL4l+9X9r2jV4IwMkZtUVylEpUHVyVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\LogInPood.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\AutoPoodMainsd\\LogInPood\\LogInPood.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

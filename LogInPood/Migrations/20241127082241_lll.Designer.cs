@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LogInPood.Migrations
 {
     [DbContext(typeof(AutopoodContext))]
-    [Migration("20241101104246_PDFMARKEN")]
-    partial class PDFMARKEN
+    [Migration("20241127082241_lll")]
+    partial class lll
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
