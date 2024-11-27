@@ -69,7 +69,7 @@ namespace Autopood.Controllers
                 Id = car.Id,
                 Price = car.Price,
                 Model = car.Model,
-                Milage = car.Milage,
+                Mileage = car.Mileage,
                 Inspection = car.Inspection,
                 SerialNumber = car.SerialNumber,
                 Register = car.Register,

@@ -26,7 +26,7 @@ namespace Autopood.Services
             car.Id = dto.Id;
             car.Price = dto.Price;
             car.Year = dto.Year;
-            car.Milage = dto.Milage;
+            car.Mileage = dto.Mileage;
             car.Seats = dto.Seats;
             car.Mark = dto.Mark;
             car.Model = dto.Model;
@@ -56,7 +56,7 @@ namespace Autopood.Services
                 Price = dto.Price,
                 Year = dto.Year,
                 Seats = dto.Seats,
-                Milage = dto.Milage,
+                Mileage = dto.Mileage,
                 Mark = dto.Mark,
                 Model = dto.Model,
                 Engine = dto.Engine,
