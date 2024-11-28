@@ -1,5 +1,5 @@
 ﻿@model Autopood.Models.Plane.PlaneCreateUpdateViewModel
-@if (Model.Id != Guid.Empty)
+@if (Model.Id.HasValue)
 {
     <h1>Update</h1>
 }
@@ -93,21 +93,13 @@ else
                 <label class="custom-file-label">Choose File...</label>
             </div>
         </div>
-
-        <hr />
-        @foreach (var images in Model.Image)
-        {
-            <partial name="_images" model="images"/>
-            <input asp-action="removeImage" asp-controller="Planes" asp-route-imageId="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image"/>
-        }
-        <hr />
-        @if (Model.Id != Guid.Empty)
+        @if (Model.Id.HasValue)
         {
             <input asp-action="Update" asp-controller="Planes" type="submit" class="btn btn-primary" value="Update" />
         }
         else
         {
-            <input asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary" value="Create" />            
+            <input asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary" value="Create" />
         }
         <a asp-action="Index" asp-controller="Planes" class="btn btn-primary">Cancel</a>
     </form>

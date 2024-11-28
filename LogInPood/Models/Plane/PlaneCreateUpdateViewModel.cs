@@ -1,4 +1,6 @@
-﻿namespace Autopood.Models.Plane
+﻿using Autopood.Models.Car;
+
+namespace Autopood.Models.Plane
 {
     public class PlaneCreateUpdateViewModel
     {
@@ -17,6 +19,7 @@
         public bool Inspection { get; set; }
         public List<IFormFile> Files { get; set; }
         public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
+        public List<FileToApiViewModelPlane> FileToApiViewModelPlanes { get; set; } = new List<FileToApiViewModelPlane>(); //file viewmodels
 
 
 

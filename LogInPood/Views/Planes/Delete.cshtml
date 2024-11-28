@@ -69,9 +69,9 @@
             @Html.DisplayFor(model => model.ModifiedAt)
         </div>
 
-        @foreach (var images in Model.Image)
+        @foreach (var images in Model.FileToApiViewModelPlanes)
         {
-            <partial name="_images" model="images" />
+            <partial name="_Images" model="images" />
         }
     </dl>
     <form asp-action="DeleteConfirmation">

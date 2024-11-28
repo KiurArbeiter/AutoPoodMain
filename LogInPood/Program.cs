@@ -1,17 +1,10 @@
-using Microsoft.EntityFrameworkCore;
 using Autopood.Data;
 using Autopood.ServiceInterface;
 using Autopood.Services;
-
-using Autopood.ServiceInterface;
-using Autopood.Services;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddScoped<IPlanesServices, PlanesServices>();
 // Add services to the container
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IFilesServices, FilesServices>();
@@ -25,7 +18,7 @@ builder.Services.AddScoped<ICarsServices, CarsServices>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AutopoodContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IFilesServices, FilesServices>();
-builder.Services.AddScoped<ICarsServices, CarsServices>();
+builder.Services.AddScoped<IPlanesServices, PlanesServices>();
 
 // Register the UserService with dependency injection
 builder.Services.AddSingleton<IUserService, UserService>();

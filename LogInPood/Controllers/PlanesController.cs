@@ -53,6 +53,7 @@ namespace Autopood.Controllers
         {
             PlaneCreateUpdateViewModel plane = new PlaneCreateUpdateViewModel();
             return View("CreateUpdate", plane);
+
         }
         [HttpPost]
         public async Task<IActionResult> Create(PlaneCreateUpdateViewModel vm)
@@ -73,7 +74,7 @@ namespace Autopood.Controllers
                 Seats = vm.Seats,
                 Inspection = vm.Inspection,
                 CreatedAt = vm.CreatedAt,
-                ModifiedAt = vm.ModifiedAt,
+                ModifiedAt = DateTime.Now,
                 Files = vm.Files,
                 Image = vm.Image.Select(x => new FileToDatabaseDto
                 {
@@ -88,7 +89,6 @@ namespace Autopood.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
-
             return RedirectToAction(nameof(Index), vm);
         }
         [HttpGet]

@@ -1,4 +1,6 @@
-﻿namespace Autopood.Models.Plane
+﻿using Autopood.Models.Car;
+
+namespace Autopood.Models.Plane
 {
     public class PlaneDeleteViewModel
     {
@@ -16,6 +18,7 @@
         public int Seats { get; set; }
         public bool Inspection { get; set; }
         public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
+        public List<FileToApiViewModelPlane> FileToApiViewModelPlanes { get; set; } = new List<FileToApiViewModelPlane>(); //file viewmodels
 
 
 
