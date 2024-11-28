@@ -1,0 +1,818 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\plane\\planecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\plane\\planecreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\planesforclientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\planesforclientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\plane\\planedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\plane\\planedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\plane\\planeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\plane\\planeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planesforclients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planesforclients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planesforclients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planesforclients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\cars\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\cars\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241128092257_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241128092257_ff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\carsclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\carsclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\carsclient\\detailsclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\carsclient\\detailsclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\services\\carsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:services\\carsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\domain\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:domain\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\car\\carindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\car\\carindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\car\\cardetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\car\\cardetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\car\\cardeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\car\\cardeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\car\\carcreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\car\\carcreateupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\cars\\createupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\cars\\createupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\AutoPoodMainsd\\LogInPood\\Migrations\\20241127082111_nimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planesforclients\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planesforclients\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\planesforclients\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\planesforclients\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\planes\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\planes\\_images.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241101104119_SSS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241101104119_SSS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093240_FirstTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241016093240_FirstTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\domain\\filetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:domain\\filetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093049_FirstTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241016093049_FirstTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:views\\login\\failed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|c:\\users\\opilane\\source\\repos\\autopoodmain\\loginpood\\migrations\\20241127082241_lll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADD27EA-75AC-4803-BF9A-5B66F908D124}|LogInPood.csproj|solutionrelative:migrations\\20241127082241_lll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaneCreateUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneCreateUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Plane\\PlaneCreateUpdateViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneCreateUpdateViewModel.cs",
+              "RelativeToolTip": "Models\\Plane\\PlaneCreateUpdateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:04:06.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlanesForClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\PlanesForClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlanesForClientsController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\PlanesForClientsController.cs",
+              "RelativeToolTip": "Controllers\\PlanesForClientsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:01:16.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlaneIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Plane\\PlaneIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneIndexViewModel.cs",
+              "RelativeToolTip": "Models\\Plane\\PlaneIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:57:56.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaneDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Plane\\PlaneDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Plane\\PlaneDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\Plane\\PlaneDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:57:01.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CarCreateUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarCreateUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Car\\CarCreateUpdateViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarCreateUpdateViewModel.cs",
+              "RelativeToolTip": "Models\\Car\\CarCreateUpdateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:31:51.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\PlanesForClients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\Index.cshtml",
+              "RelativeToolTip": "Views\\PlanesForClients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T09:35:16.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanesController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\PlanesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlanesController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\PlanesController.cs",
+              "RelativeToolTip": "Controllers\\PlanesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAMwC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:41:57.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CarIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Car\\CarIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarIndexViewModel.cs",
+              "RelativeToolTip": "Models\\Car\\CarIndexViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:36:53.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\CreateUpdate.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\CreateUpdate.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\CreateUpdate.cshtml",
+              "RelativeToolTip": "Views\\Cars\\CreateUpdate.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAIBJwCAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T08:31:39.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Planes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Planes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:44:48.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Images.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\_Images.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\_Images.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\_Images.cshtml",
+              "RelativeToolTip": "Views\\Cars\\_Images.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T09:24:21.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T09:24:22.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:25:48.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:36:44.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Dto\\CarDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CarDto.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Dto\\CarDto.cs",
+              "RelativeToolTip": "Dto\\CarDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:37:21.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Domain\\Car.cs",
+              "RelativeDocumentMoniker": "Domain\\Car.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Domain\\Car.cs",
+              "RelativeToolTip": "Domain\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:37:47.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Planes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\Details.cshtml",
+              "RelativeToolTip": "Views\\Planes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:48:10.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBJwDwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T08:34:35.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CarDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Car\\CarDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\Car\\CarDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:36:23.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CarDeleteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarDeleteViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Car\\CarDeleteViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\Car\\CarDeleteViewModel.cs",
+              "RelativeToolTip": "Models\\Car\\CarDeleteViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:36:39.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\PlanesForClients\\Details.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\Details.cshtml",
+              "RelativeToolTip": "Views\\PlanesForClients\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:49:34.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Controllers\\CarsController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAlwHIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:37:09.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CarsServices.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Services\\CarsServices.cs",
+              "RelativeDocumentMoniker": "Services\\CarsServices.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Services\\CarsServices.cs",
+              "RelativeToolTip": "Services\\CarsServices.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwDoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:39:32.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241128092257_ff.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241128092257_ff.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241128092257_ff.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241128092257_ff.cs",
+              "RelativeToolTip": "Migrations\\20241128092257_ff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:22:57.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DetailsClient.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\CarsClient\\DetailsClient.cshtml",
+              "RelativeDocumentMoniker": "Views\\CarsClient\\DetailsClient.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\CarsClient\\DetailsClient.cshtml",
+              "RelativeToolTip": "Views\\CarsClient\\DetailsClient.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwDcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T08:39:59.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarsClientController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\CarsClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarsClientController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\CarsClientController.cs",
+              "RelativeToolTip": "Controllers\\CarsClientController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAlwDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:40:18.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cars\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Cars\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Cars\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T09:20:53.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20241127082241_lll.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241127082241_lll.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241127082241_lll.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241127082241_lll.cs",
+              "RelativeToolTip": "Migrations\\20241127082241_lll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:22:41.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20241127082111_nimi.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMainsd\\LogInPood\\Migrations\\20241127082111_nimi.cs",
+              "RelativeDocumentMoniker": "..\\..\\AutoPoodMainsd\\LogInPood\\Migrations\\20241127082111_nimi.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMainsd\\LogInPood\\Migrations\\20241127082111_nimi.cs",
+              "RelativeToolTip": "..\\..\\AutoPoodMainsd\\LogInPood\\Migrations\\20241127082111_nimi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:21:11.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ImageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\PlanesForClients\\ImageViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PlanesForClients\\ImageViewModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\PlanesForClients\\ImageViewModel.cs",
+              "RelativeToolTip": "Models\\PlanesForClients\\ImageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:50:31.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\AdminModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminModel.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Models\\AdminModel.cs",
+              "RelativeToolTip": "Models\\AdminModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:50:05.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Images.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\_Images.cshtml",
+              "RelativeDocumentMoniker": "Views\\PlanesForClients\\_Images.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\PlanesForClients\\_Images.cshtml",
+              "RelativeToolTip": "Views\\PlanesForClients\\_Images.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:45:59.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Images.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\_Images.cshtml",
+              "RelativeDocumentMoniker": "Views\\Planes\\_Images.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Planes\\_Images.cshtml",
+              "RelativeToolTip": "Views\\Planes\\_Images.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:45:48.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241101104119_SSS.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241101104119_SSS.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241101104119_SSS.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241101104119_SSS.cs",
+              "RelativeToolTip": "Migrations\\20241101104119_SSS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:41:19.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T09:40:36.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Signup\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Signup\\Signup.cshtml",
+              "RelativeToolTip": "Views\\Signup\\Signup.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:36:24.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SignupController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignupController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\SignupController.cs",
+              "RelativeToolTip": "Controllers\\SignupController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:36:09.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241016093240_FirstTest.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093240_FirstTest.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241016093240_FirstTest.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093240_FirstTest.cs",
+              "RelativeToolTip": "Migrations\\20241016093240_FirstTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:32:41.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:31:16.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FileToApi.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Domain\\FileToApi.cs",
+              "RelativeDocumentMoniker": "Domain\\FileToApi.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Domain\\FileToApi.cs",
+              "RelativeToolTip": "Domain\\FileToApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:31:14.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20241016093049_FirstTest.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093049_FirstTest.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241016093049_FirstTest.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Migrations\\20241016093049_FirstTest.cs",
+              "RelativeToolTip": "Migrations\\20241016093049_FirstTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:30:49.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Success.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\Success.cshtml",
+              "RelativeToolTip": "Views\\Login\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:28:14.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:24:55.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:23:38.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeToolTip": "Views\\Login\\AdminLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:23:29.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Failed.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Failed.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\AutoPoodMain\\LogInPood\\Views\\Login\\Failed.cshtml",
+              "RelativeToolTip": "Views\\Login\\Failed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:23:24.054Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

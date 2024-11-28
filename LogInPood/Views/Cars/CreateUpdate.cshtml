@@ -1,0 +1,231 @@
+﻿@using Autopood.Domain;
+@model Autopood.Models.Car.CarCreateUpdateViewModel
+@if (Model.Id.HasValue)
+{
+    <h1>Update</h1>
+}
+else
+{
+    <h1>Create</h1>
+}
+<div>
+    <form method="post" enctype="multipart/form-data">
+        <input asp-for="Id" type="hidden" />
+        <input asp-for="CreatedAt" type="hidden" />
+        <input asp-for="ModifiedAt" type="hidden" />
+        <div style="display: flex; align-content: space-between">
+            <div style="padding-right: 100px; justify-content: space-between; width: 120%">
+                <div class="form-group row">
+                    <label asp-for="Mark" class="col-sm-2 col-form-label" style="justify-content:space-between"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Mark" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Description" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Price" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Price" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Model" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Model" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Year" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Year" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Register" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Register" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="SerialNumber" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="SerialNumber" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Engine" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Engine" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Seats" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Seats" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="Mileage" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Tires" class="form-control" />
+                    </div>
+                </div>
+
+                <div style="display: flex; flex-direction: row; justify-content: space-between">
+                    <label asp-for="Inspection" class="col-sm-2 col-form-label"></label>
+                    <div>
+                        <input type="checkbox" asp-for="Inspection" />
+                    </div>
+                </div>
+
+                <div>
+                    <label asp-for="Files" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-5">
+                        <div class="custom-file">
+                            <input class="form-control custom-file-input" asp-for="Files" multiple type="file" />
+                            <label class="custom-file-label">Choose File...</label>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                @if (Model.Id.HasValue)
+                {
+                    <input asp-action="update" asp-controller="Cars" type="submit" class="btn_edit" value="Update" />
+                }
+                else
+                {
+                    <input asp-action="create" asp-controller="Cars" type="submit" class="btn_edit" value="Create" />
+                }
+
+                <a asp-action="Index" class="btn_edit">Back</a>
+            </div>
+            <div>
+                <div style="display: flex; flex-direction: column; width: 500px; height:500px;">
+                    @foreach (var images in Model.Image)
+                    {
+                        <partial name="_Images" model="images"/>
+                        <input asp-action="removeImage" asp-controller="cars" asp-route-imageID="@images.ImageId" type="submit" class="btn_delete" style="width: 150px; position:absolute; bottom: 22.5%; right:50%; "value="Remove Image" />
+                    }
+                </div> 
+            </div>
+           
+        </div>
+
+    </form>
+</div>
+<style>
+
+    .btn_create {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 6px 6px;
+    }
+
+        .btn_create:hover {
+            color: dimgray;
+            background-color: white;
+            border-radius: 4px;
+            border-style: solid;
+            border-color: gray;
+            text-decoration: none;
+            padding: 6px 6px;
+        }
+
+    .btn_details {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+        .btn_details:hover {
+            color: dimgray;
+            background-color: white;
+            border-radius: 4px;
+            border-style: solid;
+            border-color: gray;
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+    .btn_edit {
+        color: white;
+        background-color: dimgray;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: gray;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+        .btn_edit:hover {
+            color: dimgray;
+            background-color: white;
+            border-radius: 4px;
+            border-style: solid;
+            border-color: gray;
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+    .btn_delete {
+        color: white;
+        background-color: red;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: red;
+        text-decoration: none;
+        padding: 3px 3px;
+    }
+
+        .btn_delete:hover {
+            color: red;
+            background-color: white;
+            border-radius: 4px;
+            border-style: solid;
+            border-color: red;
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+</style>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                var fileLabel = $(this).next('.custom-file-label');
+                var files = $(this)[0].files;
+                if (files.length > 1) {
+                    fileLabel.html(files.length + ' files selected')
+                }
+                else if (files.length == 1) {
+                    fileLabel.html(files[0].name);
+                }
+            });
+        });
+    </script>
+}

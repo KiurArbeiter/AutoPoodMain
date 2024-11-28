@@ -1,0 +1,135 @@
+﻿@model LogInPood.Models.UserModel;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #login-box {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        h3.text-center {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color: #555;
+            }
+
+            .form-group input.form-control {
+                width: 100%;
+                padding: 10px;
+                font-size: 14px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .form-group input[type="submit"],
+            .form-group .btn-primary {
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+                border-radius: 4px;
+                margin-top: 10px;
+                border: none;
+                cursor: pointer;
+                color: #fff;
+            }
+
+            .form-group input[type="submit"] {
+                background-color: #28a745;
+            }
+
+                .form-group input[type="submit"]:hover {
+                    background-color: #218838;
+                }
+
+            .form-group .btn-primary {
+                background-color: #007bff;
+                text-align: center;
+                text-decoration: none;
+            }
+
+                .form-group .btn-primary:hover {
+                    background-color: #0056b3;
+                }
+
+            .form-group .checkbox {
+                display: flex;
+                align-items: center;
+            }
+
+                .form-group .checkbox span {
+                    margin-left: 5px;
+                    font-size: 14px;
+                    color: #555;
+                }
+
+        .text-danger {
+            color: #dc3545;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-box">
+        @using (Html.BeginForm("Verify", "Login", FormMethod.Post)) // "Verify" kui user ja "AdminVerify" kui admin
+        {
+            <h3 class="text-center">Login</h3>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                @Html.TextBoxFor(m => m.username, new { @class = "form-control", @placeholder = "Enter your username", @required = true })
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                @Html.PasswordFor(m => m.password, new { @class = "form-control", @placeholder = "Enter your password", @required = true })
+            </div>
+            <div class="form-group checkbox">
+                <input id="remember-me" name="remember-me" type="checkbox">
+                <span>Remember me</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" name="submit" class="btn btn-success" value="Login">
+            </div>
+            <div class="form-group">
+                @Html.ActionLink("Create Account", "Signup", "Signup", null, new { @class = "btn btn-primary" })
+            </div>
+        }
+        <div class="text-danger">@ViewBag.message</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Autopood.Models.Plane.PlaneIndexViewModel>
+@{
+    int rowNumber = 1;
+}
+<div class="h1">
+    Products
+</div>
+<div>
+    <a asp-action="Create" asp-controller="Planes" type="submit" class="btn btn-primary">Add Car</a>
+</div>
+
+<form method="post">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Nr</th>
+                <th scope="col">Name</th>
+                <th scope="col">Model</th>
+                <th scope="col">Seats</th>
+                <th scope="col">Engine</th>
+                <th scope="col">Delete Car</th>
+                <th scope="col">Edit Car</th>
+                <th scope="col">Car Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Plane in Model)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@Plane.Name</td>
+                    <td>@Plane.Model</td>
+                    <td>@Plane.Seats</td>
+                    <td>@Plane.Engine</td>
+                    <td>
+                        <a asp-action="update" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-primary">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-action="delete" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                    <td>
+                        <a asp-action="details" asp-controller="Planes" asp-route-id="@Plane.Id" class="btn btn-info">Details </a>
+                    </td>
+                </tr>
+                rowNumber += 1;
+            }
+        </tbody>
+    </table>
+</form>
